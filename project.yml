@@ -1,0 +1,62 @@
+name: Chestyshadows
+options:
+  bundleIdPrefix: com.shadowfetch
+  deploymentTarget:
+    macOS: "14.0"
+  xcodeVersion: "16.0"
+
+settings:
+  base:
+    SWIFT_VERSION: "5.10"
+    MACOSX_DEPLOYMENT_TARGET: "14.0"
+    CODE_SIGN_STYLE: Automatic
+    CODE_SIGN_IDENTITY: "-"
+    ENABLE_HARDENED_RUNTIME: NO
+    ENABLE_TESTABILITY: YES
+    ALWAYS_SEARCH_USER_PATHS: NO
+
+targets:
+  Chestyshadows:
+    type: application
+    platform: macOS
+    sources:
+      - path: Chestyshadows
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.shadowfetch.chestyshadows
+        PRODUCT_NAME: Chestyshadows
+        PRODUCT_MODULE_NAME: Chestyshadows
+        INFOPLIST_FILE: Chestyshadows/Info.plist
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        GENERATE_INFOPLIST_FILE: NO
+
+  ChestyshadowsTests:
+    type: bundle.unit-test
+    platform: macOS
+    sources:
+      - path: ChestyshadowsTests
+    dependencies:
+      - target: Chestyshadows
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.shadowfetch.chestyshadows.tests
+        PRODUCT_NAME: ChestyshadowsTests
+        PRODUCT_MODULE_NAME: ChestyshadowsTests
+        GENERATE_INFOPLIST_FILE: YES
+        TEST_HOST: "$(BUILT_PRODUCTS_DIR)/Chestyshadows.app/Contents/MacOS/Chestyshadows"
+        BUNDLE_LOADER: "$(TEST_HOST)"
+
+schemes:
+  Chestyshadows:
+    build:
+      targets:
+        Chestyshadows: all
+        ChestyshadowsTests: [test]
+    run:
+      config: Debug
+    test:
+      config: Debug
+      targets:
+        - ChestyshadowsTests
+    archive:
+      config: Release

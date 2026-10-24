@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B7F3D0D25BFA2112ACB5783 /* ChestyshadowsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC6F1FBCB45215F49A05BA8 /* ChestyshadowsApp.swift */; };
+		267A1B087BDF42B7D40E11FA /* ChessAI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9900DD05A3A93C74927F7732 /* ChessAI.swift */; };
+		2AA4F36E123A2F1D8F1A3612 /* BoardTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0372045731A7B19850ADDE3C /* BoardTheme.swift */; };
+		6FE173B8432A3335B3E5725F /* ChessTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C165324EA4778895B9171D31 /* ChessTypes.swift */; };
+		70B5A971904A43A099EAC3A2 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 620F8E4540210288F474C611 /* GameViewModel.swift */; };
+		7ECF6DDBBD03D9520BC10B1C /* MainGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7522DD924575E04D98AF7256 /* MainGameView.swift */; };
+		8CF28B07AD3757ABBF42D288 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0850440E3585778A75FEE3E6 /* Assets.xcassets */; };
+		9FCE2EA312E7553EE1435AD7 /* SoundEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B0513D42195E15AB70F13F /* SoundEffects.swift */; };
+		AF2AF79C27372F2307051E10 /* PieceVectorRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF96AAD7464A77CB81F5CCF0 /* PieceVectorRenderer.swift */; };
+		C5DFF86C72952C94CB3D21D1 /* BoardCanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF29A78E603BAA9B17DE984 /* BoardCanvasView.swift */; };
+		D6CFEF7AB3399A6686089032 /* ChessEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76CBAFAC93831C2C0ACBF7D7 /* ChessEngineTests.swift */; };
+		ED14F8902C4865D1DF889C04 /* BoardState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAB7577DDF81D35A29DFD2D /* BoardState.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B5BC55F982BF716AE324BC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C99533B53D77F5A3744E4A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8628A95BE084C21CD363123;
+			remoteInfo = Chestyshadows;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0372045731A7B19850ADDE3C /* BoardTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardTheme.swift; sourceTree = "<group>"; };
+		0850440E3585778A75FEE3E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46C00B5967D1F68699E5C63E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		4C6B5A2CD3EC4EECC698B2E6 /* Chestyshadows.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chestyshadows.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EAB7577DDF81D35A29DFD2D /* BoardState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardState.swift; sourceTree = "<group>"; };
+		620F8E4540210288F474C611 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		7522DD924575E04D98AF7256 /* MainGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainGameView.swift; sourceTree = "<group>"; };
+		76CBAFAC93831C2C0ACBF7D7 /* ChessEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChessEngineTests.swift; sourceTree = "<group>"; };
+		7CC6F1FBCB45215F49A05BA8 /* ChestyshadowsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChestyshadowsApp.swift; sourceTree = "<group>"; };
+		9900DD05A3A93C74927F7732 /* ChessAI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChessAI.swift; sourceTree = "<group>"; };
+		B9B0513D42195E15AB70F13F /* SoundEffects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundEffects.swift; sourceTree = "<group>"; };
+		BAF29A78E603BAA9B17DE984 /* BoardCanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardCanvasView.swift; sourceTree = "<group>"; };
+		BF96AAD7464A77CB81F5CCF0 /* PieceVectorRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieceVectorRenderer.swift; sourceTree = "<group>"; };
+		BFF2A41D028F1A892670C5AD /* ChestyshadowsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChestyshadowsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C165324EA4778895B9171D31 /* ChessTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChessTypes.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1D6C50F3F5AE332B68CAE1B6 /* Chestyshadows */ = {
+			isa = PBXGroup;
+			children = (
+				7CC6F1FBCB45215F49A05BA8 /* ChestyshadowsApp.swift */,
+				46C00B5967D1F68699E5C63E /* Info.plist */,
+				D6BF3D085794365956AD207E /* Audio */,
+				D46A150EB64C349419CE6CF9 /* Engine */,
+				AFBCF54D75763B17B6C08B81 /* Resources */,
+				5398055C0A1F7E975C26D677 /* UI */,
+			);
+			path = Chestyshadows;
+			sourceTree = "<group>";
+		};
+		37B067E1415A91A105797E71 = {
+			isa = PBXGroup;
+			children = (
+				1D6C50F3F5AE332B68CAE1B6 /* Chestyshadows */,
+				41A81387E756F05E634FCBF5 /* ChestyshadowsTests */,
+				63094B6BD2288F3153969414 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		41A81387E756F05E634FCBF5 /* ChestyshadowsTests */ = {
+			isa = PBXGroup;
+			children = (
+				76CBAFAC93831C2C0ACBF7D7 /* ChessEngineTests.swift */,
+			);
+			path = ChestyshadowsTests;
+			sourceTree = "<group>";
+		};
+		5398055C0A1F7E975C26D677 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				BAF29A78E603BAA9B17DE984 /* BoardCanvasView.swift */,
+				0372045731A7B19850ADDE3C /* BoardTheme.swift */,
+				7522DD924575E04D98AF7256 /* MainGameView.swift */,
+				BF96AAD7464A77CB81F5CCF0 /* PieceVectorRenderer.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		63094B6BD2288F3153969414 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C6B5A2CD3EC4EECC698B2E6 /* Chestyshadows.app */,
+				BFF2A41D028F1A892670C5AD /* ChestyshadowsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFBCF54D75763B17B6C08B81 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0850440E3585778A75FEE3E6 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D46A150EB64C349419CE6CF9 /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				4EAB7577DDF81D35A29DFD2D /* BoardState.swift */,
+				9900DD05A3A93C74927F7732 /* ChessAI.swift */,
+				C165324EA4778895B9171D31 /* ChessTypes.swift */,
+				620F8E4540210288F474C611 /* GameViewModel.swift */,
+			);
+			path = Engine;
+			sourceTree = "<group>";
+		};
+		D6BF3D085794365956AD207E /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				B9B0513D42195E15AB70F13F /* SoundEffects.swift */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C014E90DF3103CD4F4BF1206 /* ChestyshadowsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B7A3CF5BA663D550EEB891D /* Build configuration list for PBXNativeTarget "ChestyshadowsTests" */;
+			buildPhases = (
+				CE2AE9BB5486796667F2912A /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				989FE91497C6BF8C4569F521 /* PBXTargetDependency */,
+			);
+			name = ChestyshadowsTests;
+			packageProductDependencies = (
+			);
+			productName = ChestyshadowsTests;
+			productReference = BFF2A41D028F1A892670C5AD /* ChestyshadowsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F8628A95BE084C21CD363123 /* Chestyshadows */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57D68B8556C90811695BD45C /* Build configuration list for PBXNativeTarget "Chestyshadows" */;
+			buildPhases = (
+				44FE53493BAB57651BE1DE2A /* Sources */,
+				D15299514941B1C146EE1B02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chestyshadows;
+			packageProductDependencies = (
+			);
+			productName = Chestyshadows;
+			productReference = 4C6B5A2CD3EC4EECC698B2E6 /* Chestyshadows.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C99533B53D77F5A3744E4A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					C014E90DF3103CD4F4BF1206 = {
+						ProvisioningStyle = Automatic;
+					};
+					F8628A95BE084C21CD363123 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9A7310E97C26E94204ED7648 /* Build configuration list for PBXProject "Chestyshadows" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 37B067E1415A91A105797E71;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 63094B6BD2288F3153969414 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8628A95BE084C21CD363123 /* Chestyshadows */,
+				C014E90DF3103CD4F4BF1206 /* ChestyshadowsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D15299514941B1C146EE1B02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CF28B07AD3757ABBF42D288 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44FE53493BAB57651BE1DE2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5DFF86C72952C94CB3D21D1 /* BoardCanvasView.swift in Sources */,
+				ED14F8902C4865D1DF889C04 /* BoardState.swift in Sources */,
+				2AA4F36E123A2F1D8F1A3612 /* BoardTheme.swift in Sources */,
+				267A1B087BDF42B7D40E11FA /* ChessAI.swift in Sources */,
+				6FE173B8432A3335B3E5725F /* ChessTypes.swift in Sources */,
+				1B7F3D0D25BFA2112ACB5783 /* ChestyshadowsApp.swift in Sources */,
+				70B5A971904A43A099EAC3A2 /* GameViewModel.swift in Sources */,
+				7ECF6DDBBD03D9520BC10B1C /* MainGameView.swift in Sources */,
+				AF2AF79C27372F2307051E10 /* PieceVectorRenderer.swift in Sources */,
+				9FCE2EA312E7553EE1435AD7 /* SoundEffects.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE2AE9BB5486796667F2912A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6CFEF7AB3399A6686089032 /* ChessEngineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		989FE91497C6BF8C4569F521 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8628A95BE084C21CD363123 /* Chestyshadows */;
+			targetProxy = 9B5BC55F982BF716AE324BC3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A7B306D0BF5C93516A03A0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Chestyshadows/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shadowfetch.chestyshadows;
+				PRODUCT_MODULE_NAME = Chestyshadows;
+				PRODUCT_NAME = Chestyshadows;
+			};
+			name = Debug;
+		};
+		309CCF91E6C247731BEE8EFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shadowfetch.chestyshadows.tests;
+				PRODUCT_MODULE_NAME = ChestyshadowsTests;
+				PRODUCT_NAME = ChestyshadowsTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chestyshadows.app/Contents/MacOS/Chestyshadows";
+			};
+			name = Release;
+		};
+		6844C3DEEBFDCC68DFD598FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_HARDENED_RUNTIME = NO;
+				ENABLE_TESTABILITY = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.10;
+			};
+			name = Release;
+		};
+		6C9EC4F3B27D14D1F74A8BD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Chestyshadows/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shadowfetch.chestyshadows;
+				PRODUCT_MODULE_NAME = Chestyshadows;
+				PRODUCT_NAME = Chestyshadows;
+			};
+			name = Release;
+		};
+		7F0FFAEC02C825D12F4E3DED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_HARDENED_RUNTIME = NO;
+				ENABLE_TESTABILITY = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.10;
+			};
+			name = Debug;
+		};
+		C7997E821686281B34516A57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shadowfetch.chestyshadows.tests;
+				PRODUCT_MODULE_NAME = ChestyshadowsTests;
+				PRODUCT_NAME = ChestyshadowsTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chestyshadows.app/Contents/MacOS/Chestyshadows";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57D68B8556C90811695BD45C /* Build configuration list for PBXNativeTarget "Chestyshadows" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A7B306D0BF5C93516A03A0F /* Debug */,
+				6C9EC4F3B27D14D1F74A8BD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9A7310E97C26E94204ED7648 /* Build configuration list for PBXProject "Chestyshadows" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F0FFAEC02C825D12F4E3DED /* Debug */,
+				6844C3DEEBFDCC68DFD598FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9B7A3CF5BA663D550EEB891D /* Build configuration list for PBXNativeTarget "ChestyshadowsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7997E821686281B34516A57 /* Debug */,
+				309CCF91E6C247731BEE8EFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C99533B53D77F5A3744E4A9 /* Project object */;
+}
