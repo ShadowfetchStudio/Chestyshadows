@@ -74,6 +74,8 @@ xcodebuild -project Chestyshadows.xcodeproj \
 - `Chestyshadows/UI/MainGameView.swift` — Full macOS window interface with evaluation bar, player strips, match configuration, shadow studio, and interactive move log.
 - `Chestyshadows/Audio/SoundEffects.swift` — Real-time procedural PCM/WAV audio synthesizer.
 
+Like this project? You can [buy me a coffee](https://www.buymeacoffee.com/shadowfetcu).
+
 ---
 
 ## License
